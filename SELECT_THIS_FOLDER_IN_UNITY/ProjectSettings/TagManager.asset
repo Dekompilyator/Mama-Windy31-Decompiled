@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Key
+  - Pickable
+  - Lock
+  - Openable
+  - Body
+  - Locker
+  - Kukla
+  - Altar
+  - Knife
+  - Hammer
+  - Doski
+  - Shitok
+  - Box
+  - Kholst
+  - Kraska
+  - Kist
+  - Otkrytka
+  - Phone
+  - FinalLock
+  - FinalDoor
+  - specialDoor
+  - secretPicture
+  - friendEnd
+  - Button
+  - lockerBack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - RaycastLayer
+  - hand
+  - Player
+  - RaycastItems
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

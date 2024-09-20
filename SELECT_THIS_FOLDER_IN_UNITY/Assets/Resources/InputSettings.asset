@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4aeb394b0034a9a25ff2e700e021c1, type: 3}
+  m_Name: InputSettings
+  m_EditorClassIdentifier:
+  actionDatabase:
+  - name: CrouchBTN
+    type: 0
+    keys:
+    - 99
+    - 331
+    actionAxes: []
+  - name: Pause
+    type: 0
+    keys:
+    - 27
+    - 112
+    actionAxes: []
+  - name: Block Cursor
+    type: 0
+    keys:
+    - 108
+    actionAxes: []
+  - name: Unblock Cursor
+    type: 0
+    keys:
+    - 107
+    actionAxes: []
+  - name: RunBtn
+    type: 0
+    keys:
+    - 304
+    actionAxes: []
+  - name: jump
+    type: 0
+    keys:
+    - 0
+    actionAxes: []
+  - name: block
+    type: 0
+    keys:
+    - 0
+    actionAxes: []
+  - name: unblock
+    type: 0
+    keys:
+    - 0
+    actionAxes: []
+  axesDatabase:
+  - name: Move Horizontal
+    type: 0
+    unityAxes:
+    - Horizontal
+    - GP LStick X
+    customKeys:
+    - negativeKey: 97
+      positiveKey: 100
+    normalize: 1
+  - name: Move Vertical
+    type: 0
+    unityAxes:
+    - Vertical
+    - GP LStick Y
+    customKeys:
+    - negativeKey: 115
+      positiveKey: 119
+    normalize: 1
+  - name: Look Horizontal
+    type: 0
+    unityAxes:
+    - Mouse X
+    - GP RStick X
+    customKeys: []
+    normalize: 0
+  - name: Look Vertical
+    type: 0
+    unityAxes:
+    - Mouse Y
+    - GP RStick Y
+    customKeys: []
+    normalize: 0
